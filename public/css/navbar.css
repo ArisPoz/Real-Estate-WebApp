@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+	color: #5a5a5a;
+	font-family: 'Lato', sans-serif;
+	padding-top: 5dpx;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.card {
+  height: 100%;
+}
+
+.content-margin{
+	margin-top:50px;
+}
+
+.content-margin-extended{
+	margin-top:150px;
+}
+.find.content{
+	margin-top:80px;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom:80px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Montserrat', sans-serif;
+}
+.parallax-section {
+	background-attachment: fixed!important;
+}
+.btn-capsul {
+	border-radius: 30px;
+}
+.btn-aqua {
+	background: #0297FF;
+	color: #fff;
+}
+.btn-aqua:hover {
+	background: #10629b;
+	color: #fff;
+}
+.btn-dark-blue {
+	background: #0C242E;
+	color: #fff;
+}
+.btn-dark-blue:hover {
+	background: #063d28;
+	color: #fff;
+}
+.btn-transparent-white {
+	border: 2px solid #fff;
+	color: #fff;
+}
+.btn-transparent-white:hover, .btn-transparent-white:focus {
+	background: #fff;
+	color: #0297FF
+}
+.relative-box {
+	position: relative
+}
+
+.btn-custom{
+	margin-top:10px;
+	margin-left:30px;
+	padding-left: 20px;
+	padding-right:20px;
+}
+
+
+
+/* TOP HEADER
+-------------------------------------------------- */
+
+
+.navbar.top-bar {
+	border-radius: 0;
+	padding: 16px 0;
+	z-index: 16;
+  	background-color:#404040;
+}
+.navbar-toggler {
+	border: 1px solid #fff;
+	color: #fff;
+	position: absolute;
+	right: 21px;
+}
+.sps {
+	padding: 1em .5em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: all 0.25s ease;
+	width: 100%;
+}
+.sps--abv {
+	background-color: transparent;
+	color: #000;
+}
+.sps--blw {
+	background-color: #fff;
+	color: #fff;
+}
+.top-bar a.navbar-brand {
+	color: #fff;
+	font-size: 26px;
+	font-weight: 800;
+	padding: 5px 0 0 10px;
+	text-transform: uppercase;
+}
+.sps--blw.top-bar a.navbar-brand {
+	color: #000;
+}
+.top-bar a.navbar-brand span {
+	color: #0297ff;
+}
+.top-bar .nav-link {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 12px 18px!important;
+}
+.sps--blw.top-bar .nav-link {
+	color: #000
+}
+.top-bar .navbar-nav .nav-item {
+	margin: 0
+}
+.top-bar .nav-link:hover, .top-bar .nav-item.active a {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	border-radius: 0;
+}
+.sps--blw.top-bar .nav-link:hover, .sps--blw.top-bar .nav-item.active a {
+	color: #0297ff;
+	border-bottom: none;
+	border-radius: 0;
+}
+
+.about-header {
+	color: #2F4F4F;
+	text-align: center;
+}
+
+.about-p1{
+	color: #2F4F4F;
+	text-align: center;
+	font-size: 30px;
+}
+
+.about-p2{
+	color: #2F4F4F;
+	text-align: center;
+	font-size: 15px;
+}
+
+.about-container{
+	margin-top: 70px;
+	margin-left: 70px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.register-heading{
+	text-decoration-style: double;
+	text-align: center;
+}
+
+.register-container{
+	padding: inherit;
+}
+/*--------------------------------------*/
+.mini-submenu{
+  display:none;  
+  background-color: rgba(0, 0, 0, 0);  
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  border-radius: 4px;
+  padding: 9px;  
+  /*position: relative;*/
+  width: 42px;
+margin-left: 50px;
+
+}
+
+.mini-submenu:hover{
+  cursor: pointer;
+}
+
+.mini-submenu .icon-bar {
+  border-radius: 1px;
+  display: block;
+  height: 2px;
+  width: 22px;
+  margin-top: 3px;
+}
+
+.mini-submenu .icon-bar {
+  background-color: #000;
+}
+
+#slide-submenu{
+  background: rgba(0, 0, 0, 0.45);
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.glyph-icon-color{
+	background: black;
+}
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
